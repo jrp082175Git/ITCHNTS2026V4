@@ -1,0 +1,31 @@
+{
+  "itch": {
+    "prod":  { "host": "10.0.0.10", "port": 9000, "username": "USERPRD", "password": "PWDPRD" },
+    "dr":    { "host": "10.0.0.20", "port": 9000, "username": "USERDR",  "password": "PWDDR"  }
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "username": null,
+    "password": null,
+    "db": 0,
+    "keyPrefix": "ITCH"
+  },
+  "servers": {
+    "socketIo":      { "port": 4000 },
+    "tcpRelay":      { "port": 4001 },
+    "retransmission":{ "port": 4002 },
+    "metrics":       { "port": 4003 }
+  },
+  "logging": {
+    "directory": "./logs",
+    "level": "info"
+  },
+  "session": {
+    "stateFile": "./state/session.json"
+  },
+  "heartbeat": {
+    "clientIntervalMs": 1000,
+    "serverTimeoutMs": 15000
+  }
+}

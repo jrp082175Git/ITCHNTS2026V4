@@ -1,0 +1,9 @@
+2026-05-19T16:01:45.669Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:45.674Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:45.726Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:45.830Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:45.983Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:46.185Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:46.438Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:46.740Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2026-05-19T16:01:47.094Z [error] [JDS] Redis Client Error: Error: connect ECONNREFUSED 127.0.0.1:6379
