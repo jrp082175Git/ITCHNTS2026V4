@@ -1,0 +1,31 @@
+{
+  "receiver": {
+    "tcpRelay":       { "host": "127.0.0.1", "port": 4001 },
+    "retransmission": { "host": "127.0.0.1", "port": 4002 }
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "username": null,
+    "password": null,
+    "db": 0,
+    "keyPrefix": "PROCESSOR"
+  },
+  "logging": {
+    "directory": "./logs",
+    "level": "info"
+  },
+  "state": {
+    "stateFile": "./state/processor-state.json"
+  },
+  "queue": {
+    "maxOnQueue1": 100000,
+    "maxOnQueue2": 50000,
+    "retransmissionMaxRange": 100000
+  },
+  "reconnect": {
+    "initialDelayMs": 1000,
+    "maxDelayMs": 30000,
+    "factor": 2
+  }
+}
